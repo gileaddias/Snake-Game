@@ -13,7 +13,7 @@ let food = {
 }
 
 function criarBG() {
-    context.fillStyle = "lightblue";
+    context.fillStyle = "black";
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
@@ -80,4 +80,4 @@ function iniciarJogo(){
     snake.unshift(newHead);
  }
 
- let jogo = setInterval(iniciarJogo, 100);
+ let jogo = setInterval(iniciarJogo, 80);
